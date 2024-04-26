@@ -4,5 +4,20 @@
 # rails runner code-along/0-classes.rb
 
 # String Class
+# These have built in behavior 
+
+favorite_food = "tacos"
+puts favorite_food
+puts favorite_food.class
+puts favorite_food.upcase
 
 # String Methods
+
+class Dog
+    def speak
+        puts "woof"
+    end
+end
+
+lucy = Dog.new
+lucy.speak
